@@ -1,42 +1,15 @@
-const http = require('http')
-const port = 3000
+const http = require('http') // to be able to run any server using Node.js
+const port = 8080 // changed from 3000
 
 const server = http.createServer((req, res) => {
     res.statusCode = 200
     res.setHeader('Content-Type', 'text/plain')
-    res.end('Hello World')
+    res.write('Just tryin to write some stuff\n')
+    res.write('Lorem ipsum lorum ipsem\n')
+    res.write('LESGO server s workin')
+    res.end()
 })
 
 server.listen(port, () => {
-    console.log(`server running at http://localhost:${port}/`)
+    console.log(`Yol. Request executed - server started.`)
 })
-
-// const prompt = require('prompt-sync')()
-
-// const x = prompt('First number: ')
-// const char = prompt('Character: ')
-// const y = prompt('Second number: ')
-// let result = 0
-
-// switch (char) {
-//     case "+":
-//         result = Number(x) + Number(y)
-//         break
-//     case "-":
-//         result = Number(x) - Number(y)
-//         break
-//     case "*":
-//         result = Number(x) * Number(y)
-//         break
-//     case "/":
-//         result = Number(x) / Number(y)
-//         break
-//     default:
-//         result = "Entered wrong character."
-// }
-
-// console.log(result)
-
-// npm init by stworzyć jsona
-// front end: react / angular
-// back end: express
