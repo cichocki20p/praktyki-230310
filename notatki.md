@@ -21,3 +21,12 @@ add - dodanie pliku do stagingu (zaznaczenie który plik będę commitował)
 - DockerFile przetrawiony przez render.io
 - serwis działa na https://praktyki-0310.onrender.com/
 - mogę spróbować opakować moje phpowe projekty w dockery i zahostować na render.io
+
+utworzenie nowego repozytorium
+zklonowanie nowego repozytorium
+utworzenie nowego projektu i utworzenie pliku DockerFile
+testy lokalne przy użyciu programu Docker Desktop zakończone sukcesem
+utworzenie konta na hostingu render.io
+połączenie hostingu z repozytorium i upload najnowszego commita
+uruchomienie hostingu
+wprowadzenie do projektu Expressa 

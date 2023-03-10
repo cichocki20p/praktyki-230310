@@ -14,8 +14,8 @@ RUN npm install
 # COPY . .
 COPY app.js ./
 
-# changed from 3000
-EXPOSE 8080
+# 8080 not working on hosting
+EXPOSE 3000
 CMD ["node", "app.js"]
 
 
