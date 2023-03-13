@@ -20,7 +20,7 @@ add - dodanie pliku do stagingu (zaznaczenie który plik będę commitował)
 - połączenie render.io z repozytoriami na moim koncie gitHubowym
 - DockerFile przetrawiony przez render.io
 - serwis działa na https://praktyki-0310.onrender.com/
-- mogę spróbować opakować moje phpowe projekty w dockery i zahostować na render.io
+- mogę spróbować opakować moje phpowe projekty w dockery i zahostować na render.com
 
 utworzenie nowego repozytorium
 zklonowanie nowego repozytorium

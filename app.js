@@ -3,8 +3,7 @@ const app = express()
 const port = 3000 // 8080 not working on hosting
 
 app.get('/', (req, res) => {
-    res.send ('<h1>Hi hello</h1>')
-    res.send ('<h3>14.03.2023 00:01</h3>Test w domu')
+    res.send ('<h1>Hi hello</h1><h3>14.03.2023 00:01</h3>Test w domu')
 })
 
 app.listen(port, () => {
